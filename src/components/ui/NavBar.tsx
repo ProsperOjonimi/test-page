@@ -1,14 +1,14 @@
 import { RxHamburgerMenu } from "react-icons/rx";
 function NavBar() {
   return (
-    <div className="flex mx-[16px] justify-between h-[56px] items-center">
+    <div className="flex pl-[32px] h-[56px] items-center fixed w-full bg-[#f7f9f2] md:h-[78px] z-50">
       {/* <h1 className="font-semibold text-[32px] font-inter">Superside</h1> */}
 
       <svg
         viewBox="0 0 160 32"
         xmlns="http://www.w3.org/2000/svg"
-        width="120"
-        height="24"
+        width="160"
+        height="32"
       >
         <path
           fill="currentColor"
@@ -16,7 +16,7 @@ function NavBar() {
         ></path>
       </svg>
 
-      <button>
+      <button className="ml-auto mr-[32px]">
         <RxHamburgerMenu size={24} />
       </button>
     </div>

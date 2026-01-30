@@ -1,6 +1,6 @@
 function HomeHeader() {
   return (
-    <div className="pt-[64px] pb-[32px] mx-[16px] text-center flex flex-col gap-4 items-center">
+    <div className="pt-[128px] pb-[32px] mx-[16px] text-center flex flex-col gap-4 items-center ">
       <h1 className="text-[36px] md:text-[60px] max-w-[1064px]">
         A dedicated creative team,{" "}
         <em className="font-instrument text-[40px] md:text-[64px]">
