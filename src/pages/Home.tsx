@@ -1,5 +1,14 @@
+import HomeCarousel from "../components/home/Carousel";
+import HomeHeader from "../components/home/Header";
+
 function Home() {
-  return <h1>Home page</h1>;
+  return (
+    <div>
+      <HomeHeader />
+
+      <HomeCarousel />
+    </div>
+  );
 }
 
 export default Home;

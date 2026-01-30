@@ -1,9 +1,15 @@
 import { Outlet } from "react-router-dom";
+import NavBar from "./NavBar";
 
 function AppLayout() {
   return (
     <div>
-      <Outlet />
+      <div>
+        <NavBar />
+      </div>
+      <main>
+        <Outlet />
+      </main>
     </div>
   );
 }

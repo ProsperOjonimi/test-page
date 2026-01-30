@@ -2,7 +2,12 @@
 export default {
   content: ["./*.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ['"Inter Tight"', "sans-serif"],
+        instrument: ['"Instrument Serif"', "serif"],
+      },
+    },
   },
   plugins: [],
 };
