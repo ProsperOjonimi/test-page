@@ -1,7 +1,8 @@
+/* tslint:disable-next-line */
 import CarouselCard from "../ui/CarouselCard";
 import { useRef, useEffect } from "react";
 import gsap from "gsap";
-import { Draggable } from "gsap/Draggable";
+import Draggable from "gsap/src/Draggable";
 
 gsap.registerPlugin(Draggable);
 
